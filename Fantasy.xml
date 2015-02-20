@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="OHaraTextSchematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<text>
+<body>
+<head>FANTASY</head>
+
+        <epigraph>(dedicated to the health of <persName ref="#Ginsberg_Allen">Allen Ginsberg</persName>)</epigraph>
+
+<l n="">How do you like the music of Adolph</l>
+<l n="">                                    <persName ref="#Deutsch_Adolph">Deutsch</persName>? I like</l>
+<l n="">it, I like it better than <persName ref="#Steiner_Max">Max Steiner</persName>'s. Take his</l>
+<l n="">score for Northern Pursuit, the <persName ref="#Dantyne_Helmut">Helmut Dantyne</persName> theme</l>
+<l n="">was . . .</l>
+<l n="">          and then the window fell on my hand. Errol</l>
+<l n=""><persName ref="#Flynn_Errol">Flynn</persName> was skiing by. Down</l>
+<l n="">                          down down went the grim</l>
+<l n="">grey submarine under the "cold" ice.</l>
+<l n="">                                     <persName ref="#Dantyne_Helmut">Helmut</persName> was</l>
+<l n="">safely ashore, on the ice.</l>
+<l n="">                           What dreams, what incredible</l>
+<l n="">fantasies of snow farts will this all lead to?</l>
+<l n="">                                               I</l>
+<l n="">don't know, I have stopped thinking like a sled dog.</l>
+
+<l n="">The main thing is to tell a story.</l>
+<l n="">                                   It is almost</l>
+<l n="">very important. Imagine</l>
+<l n="">                         throwing away the avalanche</l>
+<l n="">so early in the movie. I am the only spy left</l>
+<l n="">in Canada,</l>
+<l n="">           but just because I'm alone in the snow</l>
+<l n="">doesn't necessarily mean I'm a Nazi.</l>
+<l n="">                                     Let's see,</l>
+<l n="">to aspirins a vitamin C tablet and some baking soda</l>
+<l n="">should do the trick, that's practically an</l>
+<l n="">                                           Alka</l>
+<l n="">Seltzer. <persName ref="#Ginsberg_Allen">Allen</persName> come out of the bathroom</l>
+<l n="">                                        and take it.</l>
+<l n="">I think someone put butter on my skis instead</l>
+<l n="">of wax.</l>
+<l n="">        Ouch. The leanto is falling over in the</l>
+<l n="">firs, and there is another fatter spy here. They</l>
+<l n="">didn't tell me they sent</l>
+<l n="">                         him. Well, that takes care</l>
+<l n="">of him, boy were those huskies hungry.</l>
+<l n="">                                       Allen,</l>
+<l n="">are you feeling any better? Yes, I'm crazy about</l>
+<l n=""><persName ref="#Dantyne_Helmut">Helmut Dantyne</persName></l>
+<l n="">            but I'm glad that Canada will remain</l>
+<l n="">free. Just free, that's all, never argue with the movies.</l>
+</body>
+<date>1964</date>
+</text>

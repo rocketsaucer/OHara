@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="OHaraTextSchematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<text>
+<body>
+<head>POEM</head>
+
+<l n="1"><persName ref="#Turner_Lana">Lana Turner</persName> has collapsed!</l>
+<l n="2">I was trotting along and suddenly</l>
+<l n="3">it started raining and snowing</l>
+<l n="4">and you said it was hailing</l>
+<l n="5">but hailing hits you on the head</l>
+<l n="6">hard so it was really snowing and</l>
+<l n="7">raining and I was in such a hurry</l>
+<l n="8">to meet you but the traffic</l>
+<l n="9">was acting exactly like the sky</l>
+<l n="10">and suddenly I see a headline</l>
+<l n="11"><persName ref="#Turner_Lana">LANA TURNER</persName> HAS COLLAPSED!</l>
+<l n="12">there is no snow in Hollywood</l>
+<l n="13">there is no rain in California</l>
+<l n="14">I have been to lots of parties</l>
+<l n="15">and acted perfectly disgraced</l>
+<l n="16">but I never actually collapsed</l>
+<l n="17">oh <persName ref="#Turner_Lana">Lana Turner</persName> we love you get up</l>
+</body>
+</text>

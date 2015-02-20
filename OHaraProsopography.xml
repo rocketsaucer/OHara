@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="ProsopCheck.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<prosopography>
+    <listPlace>
+        <place xml:id="NYC">
+          <placeName>New York City</placeName>
+            <placeName>the City of Lights</placeName>
+          <note type="surrounds">New York City may contain <placeName ref="#Manhattan">Manhattan</placeName>.</note>
+      </place>
+        <place xml:id="Manhattan">
+            <placeName>Manhattan</placeName>
+            <note type="contained_by">Manhattan is in <placeName ref="#NYC">New York City</placeName>.</note>
+        </place>
+        <place xml:id="Williamsburg_Bridge">
+            <placeName>Williamsburg Bridge</placeName>
+            <note type="">The Williamsburg Bridge connects <placeName ref="#Manhattan">Manhattan</placeName> and <placeName ref="Brooklyn">Brooklyn</placeName>.</note>
+        </place>
+        <place xml:id="Brooklyn">
+            <placeName>Brooklyn</placeName>
+            <note type=""></note>
+        </place>
+        <place xml:id="Mayflower_Shoppe">
+            <placeName>Mayflower Shoppe</placeName>
+            <note type=""></note>
+        </place>
+        <place xml:id="Park_Ave">
+            <placeName>Park Avenue</placeName>
+            <note type=""></note>
+        </place>
+        <place xml:id="Manhattan_Storage_Warehouse">
+            <placeName>Manhattan Storage Warehouse</placeName>
+            <note type=""></note>
+        </place>
+        <place xml:id="The_Armory">
+            <placeName>The Armory</placeName>
+            <note type=""></note>
+        </place>
+        <place xml:id="Atlantic_Ocean">
+            <placeName>Atlantic Ocean</placeName>
+            <note type=""></note>
+        </place>
+        <place xml:id="Spain">
+            <placeName>Spain</placeName>
+            <note type=""></note>
+        </place>
+        <place xml:id="Africa">
+            <placeName>Africa</placeName>
+            <note type=""></note>
+        </place>
+        <place xml:id="Massachusetts_Onset">
+            <placeName>Onset, Massachusetts</placeName>
+            <note type=""></note>
+        </place>
+        <place xml:id="Bayreuth">
+            <placeName>Bayreuth, Germany</placeName>
+            <note type=""></note>
+        </place>
+        <place xml:id="Norfolk_Virginia">
+            <placeName>Norfolk, Virginia</placeName>
+            <note type=""></note>
+        </place>
+        <place xml:id="Boston_MA">
+            <placeName>Boston, Massachusetts</placeName>
+            <note type=""></note>
+        </place>
+        <place xml:id="Singapore">
+            <placeName>Singapore</placeName>
+            <note type=""></note>
+        </place>
+        <place xml:id="Hackensack_NJ">
+            <placeName>Hackensack, New Jersey</placeName>
+            <note type=""></note>
+        </place>
+        <place xml:id="Cincinnati_OH">
+            <placeName>Cincinnati, Ohio</placeName>
+            <note type=""></note>
+        </place>
+        <place xml:id="">
+            <placeName></placeName>
+            <note type=""></note>
+        </place>
+        <place xml:id="">
+            <placeName></placeName>
+            <note type=""></note>
+        </place>
+       
+    </listPlace>
+    
+<listPerson><person xml:id="OHara_Frank">
+    <persName>
+        <surname>O'Hara</surname>
+        <forename>Frank</forename>
+    </persName>
+    <birth>1926-03-27</birth>
+    <death>1966-07-25</death>
+    <occupation>writer</occupation>
+</person>
+<person xml:id="Denby_Edwin">
+    <persName>
+        <surname>Denby</surname>
+        <forename>Edwin</forename>
+    </persName>
+    <birth>1903-02-04</birth>
+    <death>1983-07-12</death>
+    <occupation>writer</occupation>
+    <note type="bio"><p>(February 4, 1903 – July 12, 1983) Denby wrote dance criticism, poetry, and a novel, along with adapting a play from Italian.</p></note>
+</person>
+<person xml:id="Masina_Giulietta">
+    <persName>
+        <surname>Masina</surname>
+        <forename>Giulietta</forename>
+    </persName>
+    <birth>1921-02-22</birth>
+    <death>1994-03-23</death>
+    <occupation>actress</occupation>
+    <note type="bio"><p>(22 February 1921 – 23 March 1994) She was also the wife of Italian film director Federico Fellini.</p></note>
+</person>
+<person xml:id="Fellini_Federico">
+    <persName>
+        <surname>Fellini</surname>
+        <forename>Federico</forename>
+    </persName>
+    <birth>1920-01-20</birth>
+    <death>1993-10-31</death>
+    <occupation>director</occupation>
+    <note type="bio"><p>(January 20, 1920 – October 31, 1993) He was also the husband of Italian actress Giulietta Masina.</p></note>
+</person>
+<person xml:id="Lang_VR">
+    <persName>
+        <surname>Lang</surname>
+        <forename>Violet</forename>
+        <forename>Ranney</forename>
+        <forename>Bunny</forename>
+    </persName>
+    <birth>1924</birth>
+    <death>1956</death>
+    <occupation>writer</occupation>
+    <occupation>actress</occupation>
+    <note type="bio"><p>(1924–1956) Lang was a close friend of O'Hara. She was a poet and playwright.</p></note>
+</person>
+<person xml:id="Latouche_John">
+    <persName>
+        <surname>Latouche</surname>
+        <forename>John</forename>
+    </persName>
+    <birth>1914-11-13</birth>
+    <death>1956-08-07</death>
+    <occupation>writer</occupation>
+    <occupation>musician</occupation>
+    <note type="bio"><p>(November 13, 1914 – August 7, 1956) Probably more famous for his music career, Latouche worked with notables such as Leonard Bernstein, Richard Wilbur, and Duke Ellington.</p></note>
+</person>
+<person xml:id="Pollock_Jackson">
+    <persName>
+        <surname>Pollock</surname>
+        <forename>Jackson</forename>
+    </persName>
+    <birth>1912-01-28</birth>
+    <death>1956-08-11</death>
+    <occupation>painter</occupation>
+    <note type="bio"><p>(January 28, 1912 – August 11, 1956)<!-- include information about O'Hara's relationship with Pollock --></p></note>
+</person>
+<person xml:id="Reverdy_Pierre">
+    <persName>
+        <surname>Reverdy</surname>
+        <forename>Pierre</forename>
+    </persName>
+    <birth>1889-09-13</birth>
+    <death>1960-06-17</death>
+    <occupation>writer</occupation>
+    <note type="bio"><p>(September 13, 1889 – June 17, 1960)French poet</p></note>
+</person>
+<person xml:id="Fondren_Hal">
+    <persName>
+        <surname>Fondren</surname>
+        <forename>Hal</forename>
+    </persName>
+    <birth><!-- unknown --></birth>
+    <death><!-- unknown --></death>
+    <occupation><!-- unknown --></occupation>
+    <note type="bio">Hal Fondren was O'Hara's friend. The two roomed together at Harvard.</note>
+</person>
+<person xml:id="Mayakovsky_Vladimir">
+    <persName>
+        <surname>Mayakovsky</surname>
+        <forename>Vladimir</forename>
+    </persName>
+    <birth>1893-07-19</birth>
+    <death>1930-04-14</death>
+    <occupation>writer</occupation>
+    <occupation>actor</occupation>
+    <note type="bio"><p>(July 19, 1893 – April 14, 1930)</p></note>
+</person>
+<person xml:id="Stillwagon_Miss">
+    <persName>
+        <surname>Stillwagon</surname>
+        <forename>Linda</forename>
+    </persName>
+    <occupation>teller</occupation>
+    <note type="bio"><p>O'Hara references his bank teller Miss (Linda) Stillwagon in "The Day Lady Died."</p></note>
+</person>
+<person xml:id="Verlaine_Paul">
+    <persName>
+        <surname>Verlaine</surname>
+        <forename>Paul-Marie</forename>
+    </persName>
+    <birth>1844-03-30</birth>
+    <death>1896-01-08</death>
+    <occupation>writer</occupation>
+    <note type="bio"><p>(30 March 1844 – 8 January 1896)French poet associated with the symbolist movement.</p></note>
+</person>
+<person xml:id="Bonnard_Pierre">
+    <persName>
+        <surname>Bonnard</surname>
+        <forename>Pierre</forename>
+    </persName>
+    <birth>1867-10-03</birth>
+    <death>1947-01-23</death>
+    <occupation>writer</occupation>
+    <occupation>printmaker</occupation>
+    <note type="bio"><p>(3 October 1867 – 23 January 1947)</p></note>
+</person>
+<person xml:id="Hesiod">
+    <persName>
+        <surname>Hesiod</surname>
+    </persName>
+    <birth><!-- unknown --></birth>
+    <death><!-- unkown --></death>
+    <occupation>writer</occupation>
+    <note type="bio"><p>Greek poet, thought to have been active between 750 C.E. and 650 C.E.</p></note>
+</person>
+
+    
+    <person xml:id="Lattimore_Richmond">
+        <persName>
+            <surname>Lattimore</surname>
+            <forename>Richmond</forename>
+        </persName>
+        <birth>1906-05-06</birth>
+        <death>1984-02-26</death>
+        <occupation>writer</occupation>
+        <occupation>translator</occupation>
+        <note type="bio"><p>(May 6, 1906 – February 26, 1984)O'Hara references Lattimore for his translation of Hesiod.</p></note>
+    </person>
+    <person xml:id="Behan_Brenden">
+        <persName>
+            <surname>Behan</surname>
+            <forename>Brenden</forename>
+            <forename>Francis</forename>
+        </persName>
+        <birth>1923-02-09</birth>
+        <death>1964-03-20</death>
+        <occupation>writer</occupation>
+        <note type="bio"><p>(9 February 1923 – 20 March 1964)</p></note>
+    </person>
+    <person xml:id="Waldron_Mal">
+        <persName>
+            <surname>Waldron</surname>
+            <forename>Malcom</forename>
+            <forename>Earl</forename>
+            <forename>Mal</forename>
+        </persName>
+        <birth>1925-08-16</birth>
+        <death>2002-12-02</death>
+        <occupation>musician</occupation>
+        <note type="bio"><p>(August 16, 1925 – December 2, 2002)Waldron was a regular pianist for Billie Holiday</p></note>
+    </person>
+    <person xml:id="Holiday_Billie">
+        <persName>
+            <surname>Holiday</surname>
+            <forename>Billie</forename>
+            <forename>Lady Day</forename>
+            <surname>Fagan</surname>
+            <forename>Eleanora</forename>
+        </persName>
+        <birth>1915-04-07</birth>
+        <death>1959-07-17</death>
+        <occupation>musician</occupation>
+        <note type="bio"><p>(April 7, 1915 – July 17, 1959) "The Day Lady Died" is a poem about Billie Holiday's death.</p></note>
+    </person>
+    <person xml:id="Turner_Lana">
+        <persName>
+            <surname>Turner</surname>
+            <forename>Julia</forename>
+            <forename>Jean</forename>
+            <forename>Lana</forename>
+        </persName>
+        <birth>1921-02-08</birth>
+        <death>1995-06-29</death>
+        <occupation>actress</occupation>
+        <note type="bio"><p>(February 8, 1921 – June 29, 1995)</p></note>
+    </person>    
+    <person xml:id="Rachmaninoff">
+        <persName>
+            <surname>Rachmaninoff</surname>
+            <forename>Sergei</forename>
+            <forename>Vasilievich</forename>
+        </persName>
+        <birth>1873-04-01</birth>
+        <death>1943-03-28</death>
+        <occupation>musician</occupation>
+        <note type="bio"><p>(1 April 1873 – 28 March 1943)Rachmaninoff composed and conducted, along with playing the piano. O'Hara references him many times.</p></note>
+    </person>   
+    <person xml:id="Dubuffet_Jean">
+        <persName>
+            <surname>Dubuffet</surname>
+            <forename>Jean</forename>
+            <forename>Philippe</forename>
+            <forename>Arthur</forename>
+        </persName>
+        <birth>1901-07-31</birth>
+        <death>1985-05-12</death>
+        <occupation>painter</occupation>
+        <note type="bio"><p>(31 July 1901 – 12 May 1985)Dubuffet sculpted, as well.</p></note>
+    </person>   
+    <person xml:id="Delaunay_Sonia">
+        <persName>
+            <surname>Delaunay</surname>
+            <forename>Sonia</forename>
+        </persName>
+        <birth>1885-11-14</birth>
+        <death>1979-12-05</death>
+        <occupation>painter</occupation>
+        <note type="bio"><p>(November 14, 1885 – December 5, 1979) Delaunay was known for her painting, textile design, and stage-set design.</p></note>
+    </person>   
+    <person xml:id="Ellington_Duke">
+        <persName>
+            <surname>Ellington</surname>
+            <forename>Edward</forename>
+            <forename>Kennedy</forename>
+            <forename>Duke</forename>
+        </persName>
+        <birth>1899-04-29</birth>
+        <death>1974-05-24</death>
+        <occupation>musician</occupation>
+        <note type="bio"><p>(April 29, 1899 – May 24, 1974) He was a composer and pianist.</p></note>
+    </person>   
+    <person xml:id="Princesse_de_Lamballe">
+        <persName>
+            <surname></surname>
+            <forename></forename>
+        </persName>
+        <birth></birth>
+        <death></death>
+        <occupation></occupation>
+        <note type="bio"><p></p></note>
+    </person>   
+    <person xml:id="Barnes_Binnie">
+        <persName>
+            <surname>Barnes</surname>
+            <forename>Gertrude</forename>
+            <forename>Maud</forename>
+            <forename>Binnie</forename>
+        </persName>
+        <birth>1903-05-25</birth>
+        <death>1998-07-27</death>
+        <occupation>actress</occupation>
+        <note type="bio"><p>(25 May 1903 – 27 July 1998)</p></note>
+    </person>
+    <person xml:id="Conklin_Chester">
+        <persName>
+            <surname>Conklin</surname>
+            <forename>Chester</forename>
+            <forename>Cooper</forename>
+        </persName>
+        <birth>1886-01-11</birth>
+        <death>1971-10-11</death>
+        <occupation>actor</occupation>
+        <note type="bio"><p></p></note>
+    </person>
+    <person xml:id="Nichols_Barbara">
+        <persName>
+            <surname>Nichols</surname>
+            <forename>Barbara</forename>
+        </persName>
+        <birth>1928-12-10</birth>
+        <death>1976-10-05</death>
+        <occupation>actress</occupation>
+        <note type="bio"><p>Barbara Marie Nickerauer</p></note>
+    </person>
+    <person xml:id="Koch_Kenneth">
+        <persName>
+            <surname>Koch</surname>
+            <forename>Kenneth</forename>
+        </persName>
+        <birth>1925-02-27</birth>
+        <death>2002-07-06</death>
+        <occupation>writer</occupation>
+        <note type="bio"><p>O'Hara and Koch wrote many letters to each other.</p></note>
+    </person>
+    <person xml:id="Dantyne_Helmut">
+        <persName>
+            <surname>Helmut</surname>
+            <forename>Dantine</forename>
+            <forename>Dantyne</forename>
+        </persName>
+        <birth>1917-10-07</birth>
+        <death>1982-05-02</death>
+        <occupation>actor</occupation>
+        <note type="bio"><p></p></note>
+    </person>
+    <person xml:id="Ginsberg_Allen">
+        <persName>
+            <surname>Ginsberg</surname>
+            <forename>Irwin</forename>
+            <forename>Allen</forename>
+        </persName>
+ 
+        <birth>1926-06-03</birth>
+        <death>1997-04-05</death>
+        <occupation>writer</occupation>
+        <note type="bio"><p></p></note>
+    </person>
+    <person xml:id="Deutsch_Adolph">
+        <persName>
+            <surname>Deutsch</surname>
+            <forename>Adolph</forename>
+        </persName>
+        <birth>1897-10-20</birth>
+        <death>1980-01-01</death>
+        <occupation>composer</occupation>
+        <note type="bio"><p></p></note>
+    </person>
+    <person xml:id="Steiner_Max">
+        <persName>
+            <surname>Steiner</surname>
+            <forename>Maximilian</forename>
+            <forename>Raoul</forename>
+            <forename>Max</forename>
+        </persName>
+        <birth>1888-05-10</birth>
+        <death>1971-12-28</death>
+        <occupation>composer</occupation>
+        <note type="bio"><p></p></note>
+    </person>
+    <person xml:id="Davis_Bette">
+        <persName>
+            <surname>Davis</surname>
+            <forename>Ruth</forename>
+            <forename>Elizabeth</forename>
+            <forename>Bette</forename>
+        </persName>
+        <birth>1908-04-05</birth>
+        <death>1989-10-06</death>
+        <occupation>actress</occupation>
+        <note type="bio"><p></p></note>
+    </person>
+    <person xml:id="Morris_William">
+        <persName>
+            <surname>Morris</surname>
+            <forename>William</forename>
+        </persName>
+        <birth>1834-03-24</birth>
+        <death>1896-10-03</death>
+        <occupation>writer</occupation>
+        <occupation>textile designer</occupation>
+        <occupation>social activist</occupation>
+        <note type="bio"><p></p></note>
+    </person>
+    <person xml:id="Greenberg_Samuel">
+        <persName>
+            <surname>Greenberg</surname>
+            <forename>Samuel</forename>
+            <forename>Bernard</forename>
+        </persName>
+        <birth>1893-12-13</birth>
+        <death>1917-08-16</death>
+        <occupation>writer</occupation>
+        <occupation>artist</occupation>
+        <note type="bio"><p></p></note>
+    </person>
+    <person xml:id="Crane_Hart">
+        <persName>
+            <surname>Crane</surname>
+            <forename>Harold</forename>
+            <forename>Hart</forename>
+        </persName>
+        <birth>1899-07-21</birth>
+        <death>1932-04-27</death>
+        <occupation>writer</occupation>
+        <note type="bio"><p></p></note>
+    </person>
+    <person xml:id="">
+        <persName>
+            <surname></surname>
+            <forename></forename>
+        </persName>
+        <birth></birth>
+        <death></death>
+        <occupation></occupation>
+        <note type="bio"><p></p></note>
+    </person>
+</listPerson>
+</prosopography>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="OHaraTextSchematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<text>
+<body>    
+<head>NAPHTHA</head>
+
+<l n="1">Ah <persName ref="#Dubuffet_Jean">Jean Dubuffet</persName></l>
+<l n="2">when you think of him</l>
+<l n="3">doing his military service in the Eiffel Tower</l>
+<l n="4">as a meteorologist</l>
+<l n="5">in 1922</l>
+<l n="6">you know how wonderful the 20th century</l>
+<l n="7">can be</l>
+<l n="8">and the gaited Iroquois on the girders</l>
+<l n="9">fierce and unflinching-footed</l>
+<l n="10">nude as they should be</l>
+<l n="11">slightly empty</l>
+<l n="12">like a <persName ref="#Delaunay_Sonia">Sonia Delaunay</persName></l>
+<l n="13">there is a parable of speed</l>
+<l n="14">somewhere behind the Indians' eyes</l>
+<l n="15">they invented the century with their horses</l>
+<l n="16">and their fragile backs</l>
+<l n="17">which are dark</l>
+
+<l n="18">we owe a debt to the Iroquois</l>
+<l n="19">and to <persName ref="#Ellington_Duke">Duke Ellington</persName></l>
+<l n="20">for playing in the buildings when they are built</l>
+<l n="21">we don't do much ourselves</l>
+<l n="22">but fuck and think</l>
+<l n="23">of the haunting Métro</l>
+<l n="24">and the one who didn't show up there</l>
+<l n="25">while we were waiting to become part of our century</l>
+<l n="26">just as you can't make a hat out of steel</l>
+<l n="27">and still wear it</l>
+<l n="28">who wears hats anyway</l>
+<l n="29">it is our tribe's custom</l>
+<l n="30">to beguile</l>
+
+<l n="31">how are you feeling in ancient September</l>
+<l n="32">I am feeling like a truck on a wet highway</l>
+<l n="33">how can you </l>
+<l n="34">you were made in the image of god</l>
+<l n="35">I was not</l>
+<l n="36">I was made in the image of a sissy truck-driver</l>
+<l n="37">and <persName ref="#Dubuffet_Jean">Jean Dubuffet</persName> painting his cows</l>
+<l n="38">"with a likeness burst in the memory"</l>
+<l n="39">apart from love (don't say it)</l>
+<l n="40">I am ashamed of my century</l>
+<l n="41">for being so entertaining</l>
+<l n="">but I have to smile</l>
+</body>
+<date>1959</date>
+</text>

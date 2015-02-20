@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="OHaraTextSchematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<text>
+<body>
+<head>MEMOIR OF SERGEI O. . . .</head>
+    
+<l n="1">My feet have never been comfortable</l>
+<l n="2">since I pulled them out of the Black Sea</l>
+<l n="3">and came to your foul country</l>
+<l n="4">what fatal day did I dry them off for</l>
+<l n="5">travel loathesome travel to a world</l>
+<l n="6">even older than the one I grew up in</l>
+<l n="7">what fatal day meanwhile back in France</l>
+<l n="8">they were stumbling towards the Bastille</l>
+<l n="9">and the <persName ref="#Princesse_de_Lamballe">Princesse de Lamballe</persName> was</l>
+<l n="10">shuddering as shudderingly as I</l>
+<l n="11">with a lot less to lose I still hated</l>
+<l n="12">to move sedentary as a roach of Tiflis</l>
+<l n="13">never again to go swimming in the nude</l>
+<l n="14">publicly little did I know how</l>
+<l n="15">awfulness could reach perfection abroad</l>
+<l n="16">I even thought I would see a Red Indian</l>
+<l n="17">all I saw was lipstick everything</l>
+<l n="18">covered with grass or shrouds pretty</l>
+<l n="19">shrouds shot with silver and plasma</l>
+<l n="20">even the chairs are upholstered to a</l>
+<l n="21">smothering perfection of inanity</l>
+<l n="22">and there are no chandeliers and there</l>
+<l n="23">are no gates to the parks so you don't</l>
+<l n="24">know whether you're going in them or</l>
+<l n="25">coming out of them that's not relaxing</l>
+<l n="26">and so you can't really walk all you can</l>
+<l n="27">do is sit and drink coffee and brood</l>
+<l n="28">over the lost leaves and refreshing scum</l>
+<l n="29">of Georgia Georgia of my heritage</l>
+<l n="30">and dismay meanwhile back in my old</l>
+<l n="31">country they are renaming everything so</l>
+<l n="32">I can't even tell any more which ballet</l>
+<l n="33">company I am remembering with so much</l>
+<l n="34">pain and the same thing has started</l>
+<l n="35">here American Avenue Park Avenue South</l>
+<l n="36">Avenue of <persName ref="#Conklin_Chester">Chester Conklin</persName> <persName ref="#Barnes_Binnie">Binnie Barnes</persName></l>
+<l n="37">Boulevard Avenue of Toby Wing Barbara</l>
+<l n="38"><persName ref="#Nichols_Barbara">Nichols</persName> Street where am I what is it</l>
+<l n="39">I can't even find a pond small enough</l>
+<l n="40">to drown in without being ostentatious</l>
+<l n="41">you are ruining your awful country and me</l>
+<l n="42">it is not new to do this it is terribly</l>
+<l n="43">democratic and ordinary and tired</l>
+</body>
+<date>1961</date>
+</text>

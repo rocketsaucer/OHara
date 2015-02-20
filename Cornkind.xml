@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="OHaraTextSchematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<text>
+<body>
+<head>CORNKIND</head>
+
+<l n="1">So the rain falls</l>
+<l n="2">it drops all over the place</l>
+<l n="3">and where it finds a little rock pool</l>
+<l n="4">it fills it up with dirt</l>
+<l n="5">and the corn grows</l>
+<l n="6">a green <persName ref="#Davis_Bette">Bette Davis</persName> sits under it</l>
+<l n="7">reading a volume of <persName ref="#Morris_William">William Morris</persName></l>
+<l n="8">oh fertility! beloved of the Western world</l>
+<l n="9">you aren't so popular in China</l>
+<l n="10">though they fuck too</l>
+
+<l n="11">and do I really want a son</l>
+<l n="12">to carry on my idiocy past the Horned Gates</l>
+<l n="13">poor kid           a staggering load</l>
+
+<l n="14">yet it can happen casually</l>
+<l n="15">and he lifts a little of the load each day</l>
+<l n="16">as I become more and more idiotic</l>
+<l n="17">and grows to be a strong strong man</l>
+<l n="18">and one day carries as I die</l>
+<l n="19">my final idiocy and the very gates</l>
+<l n="20">into a future of his choice</l>
+
+<l n="21">but what of <persName ref="#Morris_William">William Morris</persName></l>
+<l n="22">what of you Million Worries</l>
+<l n="23">what of <persName ref="#Davis_Bette">Bette Davis</persName> in</l>
+<l n="24">AN EVENING WITH <persName ref="#Morris_William">WILLIAM MORRIS</persName></l>
+<l n="25">or THE WORLD OF <persName ref="#Greenberg_Samuel">SAMUEL GREENBERG</persName></l>
+
+<l n="26">what of <persName ref="#Crane_Hart">Hart Crane</persName></l>
+<l n="27">what of phonograph records and gin</l>
+
+<l n="28">what of "what of"</l>
+
+<l n="29">you are of me, that's what</l>
+<l n="30">and that's the meaning of fertility</l>
+<l n="31">hard and moist and moaning</l>
+</body>
+<date>1960</date>
+</text>

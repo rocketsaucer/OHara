@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="OHaraTextSchematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<text>
+<body>    
+<head>SONG</head>
+
+<lg type="tercet" n="1"><l n="1">Is it dirty</l>
+<l n="2">does it look dirty</l>
+<l n="3">that’s what you think of in the city</l></lg>
+
+<lg type="tercet" n="2"><l n="4">does it just seem dirty</l>
+<l n="5">that’s what you think of in the city</l>
+<l n="6">you don’t refuse to breathe do you</l></lg>
+
+<lg type="tercet" n="3"><l n="7">someone comes along with a very bad character</l>
+<l n="8">he seems attractive. is he really. yes. very</l>
+<l n="9">he’s attractive as his character is bad. is it. yes</l></lg>
+
+<lg type="tercet" n="4"><l n="10">that’s what you think of in the city</l>
+<l n="11">run your finger along your no-moss mind</l>
+<l n="12">that’s  not a thought that’s soot</l></lg>
+
+<lg type="tercet" n="5"><l n="13">and you take a lot of dirt off someone</l>
+<l n="14">is the character less bad. no. it improves constantly</l>
+<l n="15">you don’t refuse to breathe do you</l></lg>
+</body>
+<date>1959</date>
+</text>

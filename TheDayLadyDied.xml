@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="#OHaraTextSchematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<text>
+<body>
+<head>THE DAY LADY DIED</head>
+
+<l n="1">It is 12:20 in <placeName ref="#NewYork">New York</placeName> a Friday</l>
+<l n="2">three days after Bastille day, yes</l>
+<l n="3">it is 1959 and I go get a shoeshine</l>
+<l n="4">because I will get off the 4:19 in Easthampton</l>
+<l n="5">at 7:15 and then go straight to dinner</l>
+<l n="6">and I don’t know the people who will feed me</l>
+
+<l n="7">I walk up the muggy street beginning to sun</l>
+<l n="8">and have a hamburger and a malted and buy</l>
+<l n="9">an ugly NEW WORLD WRITING to see what the poets</l>
+<l n="10">in Ghana are doing these days</l>
+<l n="11">I go on to the bank</l>
+<l n="12">and <persName ref="#Stillwagon_Miss">Miss Stillwagon</persName> (first name Linda I once heard)</l>
+<l n="13">doesn’t even look up my balance for once in her life</l>
+<l n="14">and in the GOLDEN GRIFFIN I get a little Verlaine</l>
+<l n="15">for Patsy with drawings by <persName ref="#Bonnard_Pierre">Bonnard</persName> although I do</l>
+<l n="16">think of <persName ref="#Hesiod">Hesiod</persName>, trans. <persName ref="#Lattimore_Richmond">Richmond Lattimore</persName> or</l>
+<l n="17"><persName ref="#Behan_Brenden">Brendan Behan</persName>’s new play or Le Balcon or Les Nègres</l>
+<l n="18">of Genet, but I don’t, I stick with <persName ref="#Verlaine_Paul">Verlaine</persName></l>
+<l n="19">after practically going to sleep with quandariness</l>
+<l n="20">and for Mike I just stroll into the PARK LANE</l>
+<l n="21">Liquor Store and ask for a bottle of Strega and</l>
+<l n="22">then I go back where I came from to 6th Avenue</l>
+<l n="23">and the tobacconist in the Ziegfeld Theatre and</l>
+<l n="24">casually ask for a carton of Gauloises and a carton</l>
+<l n="25">of Picayunes, and a NEW YORK POST with</l>
+<l n="26">her face on it</l>
+
+<l n="27">and I am sweating a lot by now and thinking of</l>
+<l n="28">leaning on the john door in the 5 SPOT</l>
+<l n="29">while she whispered a song along the keyboard</l>
+<l n="30">to <persName ref="#Waldron_Mal">Mal Waldron</persName> and everyone and I stopped breathing</l>
+</body>
+<date>1959</date>
+
+</text>

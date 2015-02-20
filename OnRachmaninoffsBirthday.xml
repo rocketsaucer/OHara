@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="OHaraTextSchematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<text>
+<body>
+<head>ON <persName ref="#Rachmaninoff">RACHMANINOFF</persName>’S BIRTHDAY</head>
+
+<l n="1">Quick! a last poem before I go</l>
+<l n="2">off my rocker. Oh <persName ref="#Rachmaninoff">Rachmaninoff</persName>!</l>
+<l n="3"><placeName ref="#Massachusetts_Onset">Onset, Massachusetts</placeName>. Is it the fig-newton</l>
+<l n="4">playing the horn? Thundering windows</l>
+<l n="5">of hell, will your tubes ever break</l>
+<l n="6">into powder? Oh my palace of oranges,</l>
+<l n="7">junk shop, staples, umber, basalt;</l>
+<l n="8">I’m a child again when I was really</l>
+<l n="9">miserable, a grope pizzicato. My pocket</l>
+<l n="10">of rhinestone, yoyo, carpenter’s pencil,</l>
+<l n="11">amethyst, hypo, campaign button,</l>
+<l n="12">is the room full of smoke? Shit</l>
+<l n="13">on the soup, let it burn. So it’s back.</l>
+<l n="14">You’ll never be mentally sober.</l>
+</body>
+<date>1953</date>
+
+</text>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="OHaraTextSchematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<text>
+<body>
+<head>POEM</head>
+
+<lg type="tercet" n="1"><l n="1">Wouldn’t it be funny</l>
+<l n="2">if The Finger had designed us</l>
+<l n="3">to shit just once a week?</l></lg>
+
+<l n="4">all week long we’d get fatter</l>
+<l n="5">and fatter and then on Sunday morning</l>
+<l n="6">while everyone’s in church</l>
+<l n="7">ploop!</l>
+</body>
+<date>1959</date>
+</text>
