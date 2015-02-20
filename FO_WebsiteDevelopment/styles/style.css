@@ -1,0 +1,154 @@
+/*begin styles to control links in general on every page of the website unless otherwise specified*/
+a:link {
+   font-size:smaller;
+   font-weight:bold;
+   color:#42033D;
+   text-decoration:underline;
+}
+
+a:visited {
+    font-size:smaller;
+    color: #42033D;
+    text-decoration:underline;
+}
+
+a:active {
+    color: #8A716A;
+    font-size:large;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #8E9AAF;
+    text-decoration:none;    
+}
+
+/* end styles to control links in general on every page of the website unless otherwise specified*/
+/* begin styles to control the header and menu options that belong at the top of every page on the website*/
+
+#header {
+	padding:10px 20px 20px;
+	margin:10px auto;
+	border:2px solid #e7e2d7;
+	border-radius:8px;
+	border-radius:.8em;
+	border-radius:.8em;
+	background: #95AFBA;
+	display:block;
+	position:relative;
+	text-align:center;
+}
+
+#header h1 {
+	font-size:3.0em;
+	text-transform:none;
+	letter-spacing:0em;
+	text-align:center;
+}
+
+#menu {
+	text-align:center;
+	display:block;
+}
+
+#menu ul {
+	padding:0px;
+	list-style-type:none;
+	display:inline;
+}
+
+#menu li {
+	margin:0px 20px;
+	padding:10px;
+	list-style-type:none;
+	display:inline;
+}
+
+#menu a:link, #menu a:visited {
+	font-size:1.5em;
+	font-weight:normal;
+	color: #000000;
+}
+
+#menu a:hover {
+	background-color: #9AB174;
+	text-decoration: underline;
+}
+
+/* end styles to control the header and menu options that belong at the top of every page*/
+/* begin styles to control the body of every page*/
+
+body {
+    background: #BDC4A7;
+    margin: 20px auto;
+    border:3px #3F7CAC;
+	border-radius:8px;
+	border-radius:.8em;
+	border-radius:.8em;
+}
+
+/* end styles to control the body of every page*/
+/*begin style to control the footer ... displayed only on home page, but posssible on any page*/
+
+#footer {
+	display: block;
+	clear: both;
+	background: #95AFBA;
+	padding:10px 20px 20px;
+	margin:10px auto;
+	border:2px solid #e7e2d7;
+	border-radius:8px;
+	border-radius:.8em;
+	border-radius:.8em;
+	position: relative;
+	text-align:center;
+}
+
+/*end styles to control the footer*/
+/* begin styles to control the home page*/
+
+#image {
+   margin-left: auto;
+   margin-right:auto;
+}
+
+#image ul {
+   list-style-type:none; 
+   margin-left: auto;
+   margin-right:auto;
+}
+
+#photo {
+    width:560px;
+    text-align:center;
+}
+
+#image_text {
+	margin-left: auto;
+	margin-right:auto;
+	color: #FFFFFF;
+	background-color: #6A6262; 
+	border:1px solid #FFFFFF;
+	border-radius:8px;
+	border-radius:.8em;
+	border-radius:.8em;
+	width:520px;
+	text-align:center;
+	font-size:90%;
+	position:relative;
+}
+
+#content_text {
+	margin:10px 10px 10px;
+	border:4px dotted #B9929F;
+	border-radius:8px;
+	border-radius:.8em;
+	border-radius:.8em;
+	background: #6A6262;
+	color:#FFFFFF;
+	font-size: 1.2em;
+}
+
+/*end styles to control the home page*/
+/*begin styles to control the about page*/
+
