@@ -4,8 +4,8 @@
     <!--  <let name="si" value="doc('http://mitford.pitt.edu/si.xml')//@xml:id"/>
     <let name="siFile" value="doc('http://mitford.pitt.edu/si.xml')"/>-->
     
-    <let name="OHaraProsopography" value="doc('OHaraProsopography.xml')//@xml:id"/>
-    <let name="Prosop" value="doc('OHaraProsopography.xml')"/>
+    <let name="Prosop" value="doc('OHaraProsopography.xml')//@xml:id"/>
+    <let name="OHaraProsopography" value="doc('OHaraProsopography.xml')"/>
     
     <pattern>
         <rule context="//text//*">
@@ -29,9 +29,9 @@
                 <!--<assert test="substring-after(., '#') = $siFile//tei:text//tei:listPerson//@xml:id | $siFile//tei:text//tei:listOrg//@xml:id">-->
                 The @ref attribute value after the hashtag must match an appropriate xml:id on our site's Prosopography file.
             </assert> 
-            <assert test=". = $OHaraProsopography//listPlace//placeName[parent::place/@xml:id = substring-after(current()/@ref, '#')]">
+            <!--<assert test=". = $OHaraProsopography//listPlace//placeName[parent::place/@xml:id = substring-after(current()/@ref, '#')]">
                 The contents of the placeName element MUST match a placeName defined, *with the appropriate @xml:id* in the listPlace.
-            </assert>
+            </assert>-->
         </rule>
     </pattern>
     <pattern>
@@ -41,9 +41,9 @@
                 <!--<assert test="substring-after(., '#') = $siFile//tei:text//tei:listPerson//@xml:id | $siFile//tei:text//tei:listOrg//@xml:id">-->
                 The @ref attribute value after the hashtag must match an appropriate xml:id on our site's Prosopography file.
             </assert> 
-            <assert test="$OHaraProsopography//listPerson//persName[parent::person/@xml:id = substring-after(current()/@ref, '#')][contains(., current())]">
+            <!--<assert test="$OHaraProsopography//listPerson//persName[parent::person/@xml:id = substring-after(current()/@ref, '#')][contains(., current())]">
                 The contents of the persName element MUST a) match some portion of a persName defined in the Prosopography file, and  b) hold the appropriate @xml:id for that person!
-            </assert>
+            </assert>-->
         </rule>
     </pattern>
     
