@@ -39,18 +39,20 @@
    </pattern>
     
     <pattern>
-        <rule context="//placeName">
+        <rule context="//placeName"> 
             <let name="portions" value="for $i in tokenize(., '\s+') return $i"/>
-            <let name="prosopMatches" value="$ProsopFile//listPlace//placeName[parent::place/@xml:id = substring-after(current()/@ref, '#')][contains(., current())]"/>
-            <let name="prosopMatch" value="for $p in $prosopMatches return $p"/>
-    
-            <let name="portionMatch" value="for $portion in $portions return $portion[contains($prosopMatch, $portion)]"/>
-            
-            <assert test="exists($portionMatch)">
+            <let name="prosopName" value="for $portion in $portions return $ProsopFile//listPlace//placeName[parent::place/@xml:id = substring-after(current()/@ref, '#')][contains(., $portion)]"/>
+            <assert test="exists($prosopName)">
                 The contents of the placeName element MUST a) match some portion of a placeName defined in the Prosopography file, and  b) hold the appropriate @xml:id for that place!
             </assert>
         </rule>
     </pattern>
+    <!--2015-02-21 ebb: NOTE: These rules match on portions of <placeName> and <persName> to find counterparts in the prosopography file, and they're very forgiving, maybe a little too forgiving:
+    <persName>Miss Stillwagon</persName> in the poem will match, because "Stillwagon" is present in the corresponding Prosop entry, and it doesn't matter if "Miss" isn't in the Prosop entry. 
+    Where this could be problematic is with place names: If <placeName ref="#NYC">York Miss</placeName> is tagged, it will check out as perfectly valid because of the presence of York 
+    (even if you really meant York, Mississippi.) Still, this won't fire spurious errors, so long as there is some portion of a name present in the prosopography entry with the matching xml:id.-->
+  
+    
     <pattern>
         <rule context="//persName/@ref">
             <let name="tokens" value="for $i in tokenize(., '\s+') return substring-after($i,'#')"/>
@@ -63,10 +65,8 @@
     <pattern>
         <rule context="//persName"> 
             <let name="portions" value="for $i in tokenize(., '\s+') return $i"/>
-            <let name="prosopName" value="for $pn in $ProsopFile//listPerson//persName[parent::person/@xml:id = substring-after(current()/@ref, '#')] return $pn"/>
-            
-            <let name="portionMatch" value="for $portion in $portions return $portion[contains($prosopName, $portion)]"/>
-            <assert test="exists($portionMatch)">
+            <let name="prosopName" value="for $portion in $portions return $ProsopFile//listPerson//persName[parent::person/@xml:id = substring-after(current()/@ref, '#')][contains(., $portion)]"/>
+            <assert test="exists($prosopName)">
                 The contents of the persName element MUST a) match some portion of a persName defined in the Prosopography file, and  b) hold the appropriate @xml:id for that person!
             </assert>
         </rule>
