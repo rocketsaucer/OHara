@@ -22,17 +22,22 @@
     <pattern>
         <rule context="//@xml:id">     
             <report test="matches(., '\s+')">
-                @xml:id values may NOT contain white spaces!
+                @xml:id values must NOT contain white spaces!
             </report>
             
             <report test="starts-with(., '#')">
-                @xml:id values may NOT begin with a hashtag!
+                @xml:id values must NOT begin with a hashtag!
             </report>
+        </rule>
+    </pattern>
+    <pattern>
+        <rule context="//@xml:id">
+            <assert test="parent::person | parent::place">
+                Only person and place elements are allowed to contain an @xml:id!
+            </assert>
         </rule>
         
     </pattern>
-    
-    
     
     
     
