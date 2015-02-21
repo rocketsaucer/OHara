@@ -4,7 +4,7 @@
     <listPlace>
         <place xml:id="NYC">
           <placeName>New York City</placeName>
-            <placeName>the City of Lights</placeName>
+       <placeName>the City of Lights</placeName>
           <note type="surrounds">New York City may contain <placeName ref="#Manhattan">Manhattan</placeName>.</note>
       </place>
         <place xml:id="Manhattan">
@@ -13,7 +13,7 @@
         </place>
         <place xml:id="Williamsburg_Bridge">
             <placeName>Williamsburg Bridge</placeName>
-            <note type="">The Williamsburg Bridge connects <placeName ref="#Manhattan">Manhattan</placeName> and <placeName ref="Brooklyn">Brooklyn</placeName>.</note>
+            <note type="">The Williamsburg Bridge connects <placeName ref="#Manhattan">Manhattan</placeName> and <placeName ref="#Brooklyn">Brooklyn</placeName>.</note>
         </place>
         <place xml:id="Brooklyn">
             <placeName>Brooklyn</placeName>
