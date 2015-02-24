@@ -2,18 +2,18 @@
 a:link {
    font-size:smaller;
    font-weight:bold;
-   color:#42033D;
+   color:#000000;
    text-decoration:underline;
 }
 
 a:visited {
     font-size:smaller;
-    color: #42033D;
+    color: #000000;
     text-decoration:underline;
 }
 
 a:active {
-    color: #8A716A;
+    color: #000000;
     font-size:large;
     text-decoration: none;
 }
@@ -29,14 +29,9 @@ a:hover {
 #header {
 	padding:10px 20px 20px;
 	margin:10px auto;
-	border:2px solid #e7e2d7;
-	border-radius:8px;
-	border-radius:.8em;
-	border-radius:.8em;
-	background: #95AFBA;
-	display:block;
 	position:relative;
 	text-align:center;
+
 }
 
 #header h1 {
@@ -44,24 +39,31 @@ a:hover {
 	text-transform:none;
 	letter-spacing:0em;
 	text-align:center;
+	border-style: groove;
+    border-color: #95AFBA;
 }
 
 #menu {
-	text-align:center;
-	display:block;
+	float: left;
+	display: block;
+	clear: both;
+	background: #95AFBA;
+	padding:0px 10px 0px;
+	border:2px solid #e7e2d7;
+	border-radius:8px;
+	border-radius:.8em;
+	border-radius:.8em;
 }
 
 #menu ul {
-	padding:0px;
-	list-style-type:none;
-	display:inline;
+	list-style: none; 
+	
 }
 
 #menu li {
-	margin:0px 20px;
+	margin:0px 10px;
 	padding:10px;
 	list-style-type:none;
-	display:inline;
 }
 
 #menu a:link, #menu a:visited {
@@ -91,18 +93,12 @@ body {
 /*begin style to control the footer ... displayed only on home page, but posssible on any page*/
 
 #footer {
-	display: block;
-	clear: both;
-	background: #95AFBA;
 	padding:10px 20px 20px;
 	margin:10px auto;
-	border:2px solid #e7e2d7;
-	border-radius:8px;
-	border-radius:.8em;
-	border-radius:.8em;
 	position: relative;
 	text-align:center;
 }
+
 
 /*end styles to control the footer*/
 /* begin styles to control the home page*/
@@ -120,7 +116,7 @@ body {
 
 #photo {
     width:560px;
-    text-align:center;
+    text-align:center;    
 }
 
 #image_text {
@@ -140,13 +136,14 @@ body {
 
 #content_text {
 	margin:10px 10px 10px;
-	border:4px dotted #B9929F;
+	color:#FFFFFF;
+	font-size: 1.2em;
+	border:2px solid #FFFFFF;
 	border-radius:8px;
 	border-radius:.8em;
 	border-radius:.8em;
-	background: #6A6262;
-	color:#FFFFFF;
-	font-size: 1.2em;
+	background: #95AFBA;
+	display:block;
 }
 
 /*end styles to control the home page*/
