@@ -27,7 +27,7 @@ a:hover {
 /* begin styles to control the header and menu options that belong at the top of every page on the website*/
 
 #header {
-	padding:10px 20px 20px;
+	padding:10px 20px 10px;
 	margin:10px auto;
 	position:relative;
 	text-align:center;
@@ -48,12 +48,15 @@ a:hover {
 	display: block;
 	clear: both;
 	background: #95AFBA;
+	text-align: left;
 	padding:0px 10px 0px;
 	border:2px solid #e7e2d7;
 	border-radius:8px;
 	border-radius:.8em;
 	border-radius:.8em;
-}
+	
+	position:fixed; 
+ }
 
 #menu ul {
 	list-style: none; 
@@ -87,6 +90,7 @@ body {
 	border-radius:8px;
 	border-radius:.8em;
 	border-radius:.8em;
+	padding:10px 20px 10px;
 }
 
 /* end styles to control the body of every page*/
@@ -115,11 +119,10 @@ body {
 }
 
 #photo {
-    width:560px;
-    text-align:center;    
+text-align: center;   
 }
 
-#image_text {
+/*#image_text {
 	margin-left: auto;
 	margin-right:auto;
 	color: #FFFFFF;
@@ -132,7 +135,7 @@ body {
 	text-align:center;
 	font-size:90%;
 	position:relative;
-}
+}*/
 
 #content_text {
 	margin:10px 10px 10px;
