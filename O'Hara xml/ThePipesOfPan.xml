@@ -3,19 +3,19 @@
 <body>
 <head>The Pipes of Pan</head>
 
-<octave>A calmness is enforced by moving light
-and even more than I can hear or know
-first flowers breathed me with their freckled sight
-beneath grey grass where I no longer go.
-My life was then a <winter>winter</winter> hot with needs,
-just then! and now, so careless of its own,
-my will relaxes with the fresh green reeds
-which spring arrogantly though they're not <earth>sown</earth>.</octave>
-<sestet>Indeed, they <sonnetness>want</sonnetness> no wind. They are a <water>lake</water>,
-and bend when they wish and do not invite
-the sun. They flay the air and do not break;
-indifferently they disappear at night,
-    and just as calmly <earth>earth</earth>'s of them bereft.
-    They found <earth>earth</earth> mute and passionless, and left.</sestet>
+<octave>A calmness is enforced by moving light<l/>
+and even more than I can hear or know<l/>
+first flowers breathed me with their freckled sight<l/>
+beneath grey grass where I no longer go.<l/>
+My life was then a <winter>winter</winter> hot with needs,<l/>
+just then! and now, so careless of its own,<l/>
+my will relaxes with the fresh green reeds<l/>
+which spring arrogantly though they're not <earth>sown</earth>.<l/></octave>
+<sestet>Indeed, they <sonnetness>want</sonnetness> no wind. They are a <water>lake</water>,<l/>
+and bend when they wish and do not invite<l/>
+the sun. They flay the air and do not break;<l/>
+indifferently they disappear at night,<l/>
+    <indent quant="4em"/>and just as calmly <earth>earth</earth>'s of them bereft.<l/>
+    <indent quant="4em"/>They found <earth>earth</earth> mute and passionless, and left.<l/></sestet>
 </body>
 </text>
