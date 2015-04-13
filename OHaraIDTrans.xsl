@@ -2,6 +2,8 @@
     
     <xsl:output method="xml" indent="no"/>
     <!--ebb: note on xsl:output: In this identity transformation stylesheet, the indent="no" setting should preserve the editor's original line indentation and stop the transformation from "pretty-printing" the output. It might have unexpected consequences, such that we may need to add some returns and white spaces, etc. -->
+<!--    <xsl:variable name="OharaColl" select="collection('OharaXML/*.xml')" as="document-node()+"/>-->
+    <!--ebb: playing with the idea of running this ID transform over a collection of multiple files. We might try it this way by declaring a collection variable, OR try running Saxon9HE at command line. Stay tuned. 2015-04-13.--> 
     
     <xsl:template match="node() | @*">
         <xsl:copy>
